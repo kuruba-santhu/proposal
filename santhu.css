@@ -1,0 +1,96 @@
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #61115a, #fc027b);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 50px;
+        }
+        h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 60px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        h2 span {
+            font-family: 'Arial Rounded MT Bold',cursive;
+            color: #f54009;
+            font-size: xx-large;
+        }
+        .journey {
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .journey h3 {
+            font-size: 30px;
+        }
+        .timeline {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .event {
+            width: 150px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .proposal1 {
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .contact {
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin: 20px;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #fa04b8;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #feb47b;
+        }
+        @media screen and (max-width: 768px){
+            .container{
+                width: 100%;
+                padding: 10px;
+            }
+            .nav{
+                flex-direction: column;
+                text-align: center;
+            }
+            .nav a{
+                padding: 10px;
+                display: block;
+            }
+            .button{
+                width: 100%;
+                padding: 15px;
+                font-size: 18px;
+            }
+            
+        }
